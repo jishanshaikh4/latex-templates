@@ -2,8 +2,9 @@
 Common LaTeX templates for occassional use such as letter, article, CV, resume, book, presentation, etc.
 
 ## Progress
-This project is undergoing and may take 1-2 weeks. So, come back sooner or later.
+This project is undergoing. So, please come back sooner or later.
 
+## License
+All the content of this repository is licenced under GNU General Public License. You are free to use, distribute, make copies, etc.
 
-## Licence
-All the content of this repository is licenced under Creative Common licence. You are free to use, distribute, make copies, etc.
+![](https://www.gnu.org/graphics/gplv3-127x51.png)
