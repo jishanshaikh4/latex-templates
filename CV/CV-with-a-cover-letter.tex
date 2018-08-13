@@ -1,0 +1,79 @@
+% Downloaded from github.com/jishanshaikh4/latex-templates
+% Credits TeXLive Studio
+
+\documentclass[11pt,a4paper,sans,english]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+\usepackage[scale=0.75,a4paper]{geometry}
+\usepackage{babel}
+%----------------------------------------------------------------------------------
+%            personal data
+%----------------------------------------------------------------------------------
+\firstname{first name}
+\familyname{family name}
+\title{Resumé title}                               % optional, remove/comment the line if not wanted
+\address{street and number}{postcode city}{country}         % optional, remove/comment the line if not wanted; the "country" arguments can be omitted or provided empty
+\mobile{mobile number}                          % optional, remove/comment the line if not wanted
+\phone{phone number}                           % optional, remove/comment the line if not wanted
+\fax{fax number}                             % optional, remove/comment the line if not wanted
+\email{email}                               % optional, remove/comment the line if not wanted
+\homepage{home page}                         % optional, remove/comment the line if not wanted
+\extrainfo{additional information}                 % optional, remove/comment the line if not wanted
+% \photo[64pt][0.4pt]{picture}                       % optional, uncomment the line if wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\quote{some quote}                                 % optional, remove/comment the line if not wanted
+%
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\section{Education}
+\cventry{year--year}{Degree}{Institution}{City}{Grade}{Description}  % arguments 3 to 6 can be left empty
+\cventry{year--year}{Degree}{Institution}{City}{Grade}{Description}
+\section{Master thesis}
+\cvitem{title}{Title}
+\cvitem{supervisors}{Supervisors}
+\cvitem{description}{Short thesis abstract}
+\section{Experience}
+\subsection{Vocational}
+\cventry{year--year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines}
+\cventry{year--year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines}
+\subsection{Miscellaneous}
+\cventry{year--year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines}
+\section{Languages}
+\cvitemwithcomment{Language 1}{Skill level}{Comment}
+\cvitemwithcomment{Language 2}{Skill level}{Comment}
+\cvitemwithcomment{Language 3}{Skill level}{Comment}
+\section{Computer skills}
+\cvdoubleitem{Category 1}{Comment}{Category 4}{Comment}
+\cvdoubleitem{Category 2}{Comment}{Category 5}{Comment}
+\cvdoubleitem{Category 3}{Comment}{Category 6}{Comment}
+\section{Interests}
+\cvitem{Hobby 1}{Description}
+\cvitem{Hobby 2}{Description}
+\cvitem{Hobby 3}{Description}
+\section{Extra 1}
+\cvlistitem{Item 1}
+\cvlistitem{Item 2}
+\cvlistitem{Item 3}
+\section{Extra 2}
+\cvlistdoubleitem{Item 1}{Item 4}
+\cvlistdoubleitem{Item 2}{Item 5}
+\cvlistdoubleitem{Item 3}{Item 6}
+\section{References}
+\begin{cvcolumns}
+  \cvcolumn{Category 1}{Comment}
+  \cvcolumn{Category 2}{Comment}
+  \cvcolumn{Category 3}{Comment}
+\end{cvcolumns}
+\clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Company Recruitment team}{Company's name\\Street address\\Zip Code City}
+\date{Date}
+\opening{Dear Sir or Madam,}
+\closing{Yours faithfully,}
+\enclosure{enclosures}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+\makeletterclosing
+\end{document}
