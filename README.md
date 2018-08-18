@@ -2,7 +2,7 @@
 Common LaTeX templates for occassional use such as letter, article, CV, resume, book, presentation, etc.
 
 ## Progress
-This project is undergoing. So, please come back sooner or later.
+This project is undergoing. So, please come back sooner or later for more files.
 
 ## License
 All the content of this repository is licenced under GNU General Public License. You are free to use, distribute, make copies, etc.
